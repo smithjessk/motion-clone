@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: bonsai
+    volumes:
+      - ./src:/src
+    command: ./hi.sh
