@@ -1,0 +1,4 @@
+(executable
+ (public_name usemotiondotcom)
+ (name main)
+ (libraries usemotiondotcom))
